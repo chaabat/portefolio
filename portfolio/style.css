@@ -1,0 +1,171 @@
+*{
+   padding:0;
+   margin:0;
+   box-sizing: border-box;
+   font-family: sans-serif; 
+}
+
+.container{
+    height : 100vh;
+    width: 100%;
+    position: relative;
+    background: url(cover.jpg);
+    background: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container .box{
+    height: 86vh;
+    width: 75%;
+    padding: 0 20px;
+    background-color: azure;
+    z-index: 10;
+    border: 2px solid beige;
+    border-radius:  20px;
+    display: flex;
+    backdrop-filter: blur(25px);
+    box-shadow: -15px whitesmoke;
+}
+
+.container nav{
+    height: 7%;
+    width: 70%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 15px auto;
+    padding: 20px;
+}
+
+.container .logo{
+    height: 10%;
+    width: 10%;
+    margin-left: 30px;
+}
+
+.container nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.container nav ul li a{
+   text-decoration: none;
+   font-size: 18px;
+   color: black;
+   transition: 0.3s;
+}
+
+.container nav ul li a:hover {
+    color:orange;
+}
+
+.content{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 8%;
+    padding-left:80px;
+}
+
+.content .section-1{
+position: relative;
+width: 40%;
+}
+
+.content .section-1 h1{
+    margin-bottom: 20px;
+    font-size:30px;
+    font-weight:700;
+    color:black;
+}
+
+.content .section-1 h3{
+    font-size:25px;
+    color:orange;
+    margin-bottom:10px;
+}
+
+.content .section-1 p{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.container .btn{
+    padding: 15px 20px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    border: 3px solid orangered;
+    font-weight: 500;
+    text-decoration:none;
+    transition: 0.3s;
+}
+
+.content .btn:hover{
+    background-color: white;
+    color:black;
+}
+
+.content .section-2{
+    width:50%;
+    position: relative;
+}
+
+
+
+.content .section-2 img{
+    width: 70%;
+    height: 70%;
+    left: 30px;
+}
+ 
+.contact-box
+{
+    width: 500px;
+    background-color: gray;
+    box-shadow: 0 0 20px 0 beige;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.content .contact-box h4{
+    font-size:25px;
+    color:orange;
+    margin-bottom:10px;
+    position: center;
+}
+form{
+    margin:35px;
+}
+.input-field
+{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+}
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+
+}
+.btn{
+    border-radius: 20px;
+    color: black;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: orange;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
